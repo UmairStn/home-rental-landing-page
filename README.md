@@ -64,4 +64,4 @@ Licensed under the MIT License
 
 👤 Author
 UmairStn
-[Your Portfolio/LinkedIn/GitHub Link]
+[https://github.com/UmairStn]
