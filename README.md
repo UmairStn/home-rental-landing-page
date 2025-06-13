@@ -2,7 +2,7 @@
 
 A modern, responsive landing page for a home rental service with animated UI components and a clean design.
 
-![Home Rental Landing Page](http://www.settleup.live/)
+[Home Rental Landing Page](http://www.settleup.live/)
 
 ---
 
