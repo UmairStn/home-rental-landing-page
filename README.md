@@ -62,6 +62,6 @@ A modern, responsive landing page for a home rental service with animated UI com
 ## 📄 License
 Licensed under the MIT License
 
-👤 Author
+##👤 Author
 UmairStn
 [https://github.com/UmairStn]
