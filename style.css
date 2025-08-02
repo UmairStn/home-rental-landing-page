@@ -26,6 +26,7 @@ nav {
     align-items: center;
     padding: 1.5rem 5%;
     position: fixed;
+    top: 0;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -77,6 +78,29 @@ nav.scrolled {
 
 .nav-links a:hover::after {
     width: 100%;
+}
+
+/* Hide menu toggle in desktop mode */
+.menu-toggle {
+    display: none;
+}
+
+/* Update navigation layout for desktop */
+@media (min-width: 769px) {
+    nav {
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 2rem;
+    }
+    
+    .nav-links {
+        display: flex !important;
+        gap: 2rem;
+    }
 }
 
 /* Hero Section */
