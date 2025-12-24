@@ -16,7 +16,6 @@
 
 body {
     overflow-x: hidden;
-    cursor: pointer;
 }
 
 /* Navigation Styles */
@@ -553,27 +552,29 @@ footer p {
 
 @media (max-width: 768px) {
     .nav-links {
-        position: fixed;
-        top: 80px;
-        left: -100%;
-        width: 80%;
-        height: calc(100vh - 80px);
-        background: white;
+        position:fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background:rgba(255, 255, 255, 0.95);
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        padding-top: 2rem;
+        padding: 2rem 0;
         transition: all 0.5s ease;
-        box-shadow: 5px 0 15px rgba(0,0,0,0.1);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
 
     .nav-links.active {
+        top: 92px;
         left: 0;
+        border-radius: 0 0 10px 10px;
     }
 
     .nav-links a {
-        font-size: 1.2rem;
-        padding: 1rem 0;
+        font-size: 1rem;
+        padding: 0.8rem 0;
     }
 
     .menu-toggle {
