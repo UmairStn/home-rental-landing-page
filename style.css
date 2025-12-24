@@ -592,6 +592,84 @@ footer p {
     .hero-content p {
         font-size: 1.1rem;
     }
+
+    /* Feature Cards - 2 per row on mobile */
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .feature-card {
+        font-size: 0.85rem;
+    }
+
+    .feature-card-content {
+        padding: 1rem;
+    }
+
+    .feature-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .feature-card p {
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .property-image {
+        height: 120px;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+
+    .feature-card i {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* City Cards - 2 per row on mobile */
+    .cities-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .city-image {
+        height: 120px;
+    }
+
+    .city-info {
+        padding: 1rem;
+    }
+
+    .city-info h3 {
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .city-info p {
+        font-size: 0.75rem;
+    }
+
+    /* Stats Grid - 2 per row on mobile */
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .stat-item {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .stat-item h3 {
+        font-size: 2rem;
+    }
+
+    .stat-item p {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -603,7 +681,35 @@ footer p {
         font-size: 2rem;
     }
 
+    /* Keep 2 cards per row on smaller mobile devices */
     .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+    }
+
+    .feature-card h3 {
+        font-size: 1rem;
+    }
+
+    .feature-card p {
+        font-size: 0.75rem;
+    }
+
+    .property-image {
+        height: 100px;
+    }
+
+    .cities-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+    }
+
+    .city-image {
+        height: 100px;
+    }
+
+    /* Testimonials - 1 per row on very small screens */
+    .testimonial-grid {
         grid-template-columns: 1fr;
     }
 }
